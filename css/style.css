@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;	  
+}
+
+.container {
+	flex: 1;
+}
+
+.fl1{
+
+	display: flex;
+	flex: 1;
+	flex-direction: row;	   
+	justify-content: space-between;	 
+	background:#E79494;      
+}
+
+h1.fl2{
+	width: 200px;
+	display: inline;
+}
+
+.hidden {
+  display: none;
+}
